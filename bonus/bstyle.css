@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 510px;
+    margin: 0 auto;
+}
+
+.container-fluid{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    padding: 10px 10px;
+}
+
+.col{
+    background-color: #006cfa;
+    color: white;
+    min-height: 50px;
+}
+
+.cont-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.nested {
+    background-color: #00e165;
+    height: 40px;
+    border: 1px solid #006cfa;
+}
+
+#spazio{
+    background-color: white;
+}
+
+
+/* Bonus */
+
+.bordo{
+    background-color: black;
+}
+
+.pelle{
+    background-color: #e3c597;
+}
+
+.occhio{
+    background-color: white;
+}
+
+.lacrima{
+    background-color: #77afd6;
+}
