@@ -19,10 +19,12 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    width: 100%;
 }
 
 .flex{
     display: flex;
+    padding: 10px 10px;
 }
 
 .col{
@@ -35,4 +37,14 @@
 .cont-center{
     justify-content: center;
     align-items: center;
+}
+
+.nested {
+    background-color: #00e165;
+    height: 40px;
+    border: 1px solid #006cfa;
+}
+
+#spazio{
+    background-color: white;
 }
