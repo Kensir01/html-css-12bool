@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.container-fluid{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex{
+    display: flex;
+}
+
+.col{
+    background-color: #006cfa;
+    border: solid 1px white;
+    color: white;
+    min-height: 50px;
+}
+
+.cont-center{
+    justify-content: center;
+    align-items: center;
+}
